@@ -2,10 +2,10 @@
 
 int h = 10;
 int b = 8;
-int area;
+float area;
 
 int main(){
-  area = (h*b)/2;
-  printf("Area of the triangle is: %d",area);
+  area = (float) (h*b)/2;
+  printf("Area of the triangle is: %.2f",area);
   return 0;
 }
